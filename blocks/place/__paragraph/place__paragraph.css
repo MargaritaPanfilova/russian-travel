@@ -1,11 +1,33 @@
 .place__paragraph {
-    margin: 0;
-    padding-bottom: 26px;
+    margin: 0 0 26px;
     font-weight: 400;
     font-size: 18px;
     line-height: 1.6;
 }
 
 .place__paragraph:last-of-type {
-    padding-bottom: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 1279px) {
+    .place__paragraph {
+        margin: 0 0 27px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .place__paragraph {
+        margin: 0 0 25px;
+        font-size: 16px;
+        line-height: 1.625;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .place__paragraph {
+        margin: 0 16px 25px;
+    }
+    .place__paragraph:last-of-type {
+        margin: 0 16px 0;
+    }
 }
