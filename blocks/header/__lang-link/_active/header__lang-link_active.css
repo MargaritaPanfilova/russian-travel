@@ -1,0 +1,6 @@
+.header__lang-link_active {
+  max-width: 30px;
+  max-height: 28px;
+  text-decoration-line: underline;
+  margin-right: 18px;
+}
