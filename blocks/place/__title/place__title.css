@@ -12,7 +12,8 @@
     }
 
     .place__title:first-of-type {
-      padding-left: 18px;
+      font-size: 46px;
+      line-height: 1;
     }
 }
 
