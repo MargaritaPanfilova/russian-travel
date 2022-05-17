@@ -9,11 +9,7 @@
     .place__title {
         font-size: 42px;
         line-height: 1.1;
-    }
-
-    .place__title:first-of-type {
-      font-size: 46px;
-      line-height: 1;
+        padding-right: 12px;
     }
 }
 
@@ -22,5 +18,6 @@
         margin: 0 16px;
         font-size: 32px;
         line-height: 1.09;
+        padding-right: 0;
     }
 }

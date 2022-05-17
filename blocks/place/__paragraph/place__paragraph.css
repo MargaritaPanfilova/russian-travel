@@ -1,5 +1,6 @@
 .place__paragraph {
     margin: 0 0 26px;
+    font-weight: 400;
     font-size: 18px;
     line-height: 1.6;
 }
@@ -25,6 +26,7 @@
 
 @media screen and (max-width: 767px) {
     .place__paragraph {
+        min-width: 288px;
         margin: 0 16px 25px;
     }
     .place__paragraph:last-of-type {
